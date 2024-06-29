@@ -1,0 +1,84 @@
+body {
+  font-family: Roboto, Arial;
+  background-color: rgb(25, 25, 25);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.counter {
+  display: flex;
+  color: white;
+  font: 100 100px Roboto;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.control-buttons-1-level {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 360px;
+}
+
+.button-start, 
+.button-stop, 
+.button-reset,
+.button-flag,
+.button-delete-flag {
+  padding: 8px 20px;
+  font: 400 20px Roboto;
+  border: none;
+  border-radius: 30px;
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.flag-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.button-flag {
+  padding: 5px 20px;
+}
+.flag-text,
+.number-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font: 100 40px Roboto;
+}
+.number-flag {
+  margin-right: 60px;
+}
+.button-delete-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
